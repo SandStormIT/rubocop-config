@@ -40,3 +40,5 @@ Now you can use Rubocop
 ```
 bundle exec rubocop
 ```
+
+> "Thank you for your cooperation.  Goodnight."
