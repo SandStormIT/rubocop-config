@@ -3,7 +3,7 @@
 
 require: rubocop-rails
 
-# We will need to improve our Exclude list by remove elements soon
+# We will need to improve our Exclude list by removing elements soon
 AllCops:
   TargetRubyVersion: 2.4
   Exclude:
