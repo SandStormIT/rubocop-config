@@ -22,7 +22,8 @@ inherit_from:
   - https://raw.githubusercontent.com/SandStormIT/rubocop-config/master/.rubocop.yml
 ```
 
-Add this to your `.gitignore`
+Once you run Rubocop, it will cache the remote config locally.  We don't want to commit that cache
+to our repositories, so add this to your `.gitignore`
 
 ```
 # Ignore local cache of remote Rubocop config
