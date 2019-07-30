@@ -4,7 +4,7 @@ Inherit from this config in individual projects.
 
 ## Usage
 
-Add the `rubocop-rails` gem to your project's `Gemfile` inside the `:development` and `test` groups.
+Add the `rubocop-rails` gem to your project's `Gemfile` inside the `:development` and `:test` groups.
 
 ```
 # If you already have a :development and :test block in your Gemfile, just add the gem there.
