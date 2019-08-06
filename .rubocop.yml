@@ -4,6 +4,7 @@
 require: rubocop-rails
 
 # We will need to improve our Exclude list by removing elements soon
+# Excluding vendor/**/* so that CircleCI doesn't check those in their environment
 AllCops:
   TargetRubyVersion: 2.4
   Exclude:
@@ -13,6 +14,7 @@ AllCops:
     - 'db/**/*'
     - 'lib/**/*'
     - 'test/**/*'
+    - 'vendor/**/*'
 
 # super.match? /simple/
 Lint/AmbiguousRegexpLiteral:
