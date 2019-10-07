@@ -93,6 +93,14 @@ Layout/LeadingCommentSpace:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+# always use `-> () { }`
+Style/Lambda:
+  EnforcedStyle: literal
+
+# always add space between stabby lambda and args
+Style/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
 #################################################
 # RAILS COPS
 #################################################
