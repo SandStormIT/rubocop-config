@@ -29,7 +29,7 @@ Lint/AmbiguousOperator:
 # end
 #
 # Parenthesis are evil.
-NestedParenthesizedCalls:
+Style/NestedParenthesizedCalls:
   Enabled: false
 
 # `rescue` is provided for a reason
@@ -54,7 +54,7 @@ Layout/SpaceInsideHashLiteralBraces:
 
 # Always use <<~HERE
 # HERE
-Layout/IndentHeredoc:
+Layout/HeredocIndentation:
   EnforcedStyle: squiggly
 
 # Rake tasks usually end up having no respect for line lengths.
@@ -62,7 +62,7 @@ Metrics/BlockLength:
   Exclude:
     - 'Rakefile'
     - '**/*.rake'
-Metrics/LineLength:
+Layout/LineLength:
   Exclude:
     - 'Rakefile'
     - '**/*.erb'
@@ -82,7 +82,7 @@ Style/CommentedKeyword:
 #   :a_key => 1,
 #   :a_longer_key => 2
 # }
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedHashRocketStyle: key
 
 Layout/LeadingCommentSpace:
@@ -98,7 +98,7 @@ Style/Lambda:
   EnforcedStyle: literal
 
 # always add space between stabby lambda and args
-Style/SpaceInLambdaLiteral:
+Layout/SpaceInLambdaLiteral:
   EnforcedStyle: require_space
 
 #################################################
