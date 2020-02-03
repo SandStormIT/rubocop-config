@@ -15,6 +15,7 @@ AllCops:
     - 'lib/**/*'
     - 'test/**/*'
     - 'vendor/**/*'
+    - 'node_modules/**/*'
 
 # super.match? /simple/
 Lint/AmbiguousRegexpLiteral:
