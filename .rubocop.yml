@@ -17,6 +17,10 @@ AllCops:
     - 'vendor/**/*'
     - 'node_modules/**/*'
 
+# don't use `foo1`, use `foo_1`
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+
 # super.match? /simple/
 Lint/AmbiguousRegexpLiteral:
   Enabled: false
